@@ -1,13 +1,16 @@
 import React from 'react';
+import Image from "next/image";
+import gil1 from '@/public/img/gil-1.png'
+import gil2 from '@/public/img/gil-2.png'
 
 function AppetizerAndSalads(props) {
     return (
         <>
             <div className={''} id={'appetizerandsalad'}   >
-<div className={'w-full bg-purple-400 h-[2rem] px-4 flex justify-center  items-center py-6 text-3xl'}>
-
-
-        appetizerandsalad
+<div className={'w-full  h-[2rem] px-4 flex justify-center items-center py-6 text-3xl gap-2'}>
+    <div className={'flex items-center'}><Image src={gil2} height={32} alt={'gil'}/></div>
+    <div className={'text-[19px]'}>Appertize and Salad</div>
+    <div className={'flex items-center'}><Image src={gil1} height={32} alt={"gil"}  /></div>
 </div>
                 <div className={'items-container px-4 mt-2'}>
 
